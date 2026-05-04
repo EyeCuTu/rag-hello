@@ -28,7 +28,7 @@ print(f"Получилось чанков: {len(chunks)}")
 
 # 4. Эмбеддинги и запись в Chroma
 embeddings = HuggingFaceEmbeddings(
-    model_name="paraphrase-multilingual-MiniLM-L12-v2"
+    model_name = "BAAI/bge-m3"
 )
 vectorstore = Chroma.from_documents(
     documents=chunks,

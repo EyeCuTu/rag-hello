@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # === Конфигурация ===
 CHROMA_DIR = "./chroma_db"
-EMBEDDING_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL = "BAAI/bge-m3"
 LLM_MODEL = "claude-haiku-4-5"
 TOP_K = 5
 
